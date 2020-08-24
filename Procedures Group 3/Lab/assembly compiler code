@@ -1,0 +1,4 @@
+
+nasm -f elf arithmetic.asm
+ld -m elf_i386 -o -arithmetic arithmetic.o
+./arithmetic
